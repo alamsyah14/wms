@@ -1,0 +1,160 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ActiveText">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="InactiveText">
+        <item name="android:textColor">@color/darkGray2</item>
+    </style>
+
+    <!--Base Text style-->
+    <style name="BaseAppTheme.Text" parent="TextAppearance.AppCompat" />
+
+    <style name="BaseAppTheme.Text.Bold">
+        <item name="android:fontFamily">@font/sanspro_bold</item>
+    </style>
+
+    <style name="BaseAppTheme.Text.Regular">
+        <item name="android:fontFamily">@font/sanspro_regular</item>
+    </style>
+
+    <style name="BaseAppTheme.Text.Regular.Italic">
+        <item name="android:fontFamily">@font/sanspro_italic</item>
+    </style>
+
+    <!--Text style-->
+    <style name="HeadlineText" parent="BaseAppTheme.Text">
+        <item name="android:textSize">@dimen/h2_text</item>
+    </style>
+
+    <style name="SubHeadlineText" parent="BaseAppTheme.Text">
+        <item name="android:textSize">@dimen/h3_text</item>
+    </style>
+
+    <style name="BodyText" parent="BaseAppTheme.Text">
+        <item name="android:textSize">@dimen/body_text</item>
+    </style>
+
+    <style name="MicroText" parent="BaseAppTheme.Text">
+        <item name="android:textSize">@dimen/body_text</item>
+    </style>
+
+    <style name="MiniText" parent="BaseAppTheme.Text">
+        <item name="android:textSize">@dimen/micro_text</item>
+    </style>
+
+    <!--Headline Text Bold-->
+    <style name="HeadlineText.Bold">
+        <item name="android:fontFamily">@font/sanspro_bold</item>
+    </style>
+
+    <style name="HeadlineText.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="HeadlineText.Bold.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="HeadlineText.Bold.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
+    <style name="HeadlineText.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--Micro Text Bold-->
+    <style name="MicroText.Bold">
+        <item name="android:fontFamily">@font/sanspro_bold</item>
+    </style>
+
+    <style name="MicroText.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MicroText.Bold.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="MicroText.Bold.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
+    <style name="MicroText.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!--Micro Text Regular-->
+    <style name="MicroText.Regular">
+        <item name="android:fontFamily">@font/sanspro_regular</item>
+    </style>
+
+    <style name="MicroText.Regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MicroText.Regular.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="MicroText.Regular.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
+    <style name="MicroText.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!--Mini Text Bold-->
+    <style name="MiniText.Bold">
+        <item name="android:fontFamily">@font/sanspro_bold</item>
+    </style>
+
+    <style name="MiniText.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MiniText.Bold.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="MiniText.Bold.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
+    <style name="MiniText.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!--Mini Text Regular-->
+    <style name="MiniText.Regular">
+        <item name="android:fontFamily">@font/sanspro_regular</item>
+    </style>
+
+    <style name="MiniText.Regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MiniText.Regular.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="MiniText.Regular.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
+    <style name="MiniText.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="BaseAppTheme.Text.Bold">
+        <item name="android:textSize">@dimen/h3_text</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>
