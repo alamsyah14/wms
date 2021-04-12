@@ -1,6 +1,8 @@
 package com.datascrip.wms.core.base
 
 import com.datascrip.wms.R
+import com.datascrip.wms.core.extention.*
+import kotlinx.android.synthetic.main.toolbar.*
 
 abstract class BaseToolbarActivity: BaseActivity(), ToolbarTitleListener {
     override fun getLayoutRes(): Int = R.layout.container_base_activity
