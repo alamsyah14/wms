@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemAccountTitle"
+    android:paddingLeft="@dimen/space_x3"
+    android:paddingRight="@dimen/space_x3"
+    android:paddingTop="@dimen/space_x3"
+    android:paddingBottom="@dimen/space_x3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checkMark="@null"
+    android:gravity="center_vertical"
+    android:includeFontPadding="false"
+    android:lineSpacingExtra="0dp"
+    android:fontFamily="@font/sanspro_bold"
+    android:textSize="16sp"
+    android:textColor="@color/black"
+    android:checked="true"
+    tools:text="Item Here" />

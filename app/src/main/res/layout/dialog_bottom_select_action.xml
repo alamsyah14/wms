@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/space_x4"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:background="@drawable/top_rounder_background_white"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/space_x10"
+                android:layout_height="@dimen/space_half"
+                android:layout_marginTop="@dimen/space_x2"
+                android:background="@drawable/button_language_bg"
+                android:backgroundTint="@color/gray"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/dlgTitle"
+                style="@style/BodyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_x3"
+                tools:text="Title Dialog"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                tools:ignore="RtlSymmetry" />
+
+            <FrameLayout
+                android:id="@+id/dlgClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_x3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_close"
+                    tools:ignore="ContentDescription" />
+
+            </FrameLayout>
+
+            <com.datascrip.wms.widget.BottomSheetListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dlgClose"
+                android:layout_marginTop="@dimen/space_x1"
+                android:cacheColorHint="@android:color/transparent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:listSelector="@android:color/transparent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_x3"
+                tools:itemCount="5"
+                tools:listitem="@layout/list_item_action_wms" />
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
