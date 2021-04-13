@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import com.datascrip.wms.core.di.NetworkApp
 import com.datascrip.wms.core.di.appModule
+import com.datascrip.wms.core.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -19,7 +20,8 @@ class WmsApp : Application() {
         startKoin {
             androidContext(appContext)
             modules(NetworkApp().networkModule
-                + appModule
+                    + viewModelModule
+                    + appModule
             )
         }
     }

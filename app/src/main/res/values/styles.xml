@@ -1,5 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:fontFamily">@font/sanspro_regular</item>
+        <item name="background">@color/default_background</item>
+    </style>
+
+    <style name="BaseAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="BaseAppTheme">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
     <style name="ActiveText">
         <item name="android:textColor">@color/black</item>
     </style>
