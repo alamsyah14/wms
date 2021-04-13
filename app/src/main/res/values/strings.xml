@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">WMS</string>
     <string name="full_app_name">Warehouse Management System</string>
+
+    <string name="oops">Oops...!</string>
+    <string name="retry">Retry</string>
 </resources>
