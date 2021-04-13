@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">wms</string>
+    <string name="app_name">WMS</string>
+    <string name="full_app_name">Warehouse Management System</string>
 </resources>
