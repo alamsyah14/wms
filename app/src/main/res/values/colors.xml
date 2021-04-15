@@ -20,4 +20,6 @@
     <color name="NewRed2">#C41432</color>
     <color name="NewRed3">#ef4940</color>
 
+    <color name="background_overlay"  >#99000000</color>
+
 </resources>
