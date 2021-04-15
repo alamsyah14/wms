@@ -26,3 +26,12 @@ object Actions {
     const val REGISTER_WHS_MOVEMENT = "register_whs_movement"
     const val FINISH_WHS_PICK = "finish_whs_pick"
 }
+
+object Configuration {
+    const val DEVICE_ID = "Android"
+    const val IP_SERVER = "172.16.0.4"
+    const val PORT      = "4446"
+    const val DATABASE  = "TNAV2015_TRACEDEV"
+    const val COMPANY   = "PT DATASCRIP"
+    const val DOMAIN    = "DATASCRIP"
+}

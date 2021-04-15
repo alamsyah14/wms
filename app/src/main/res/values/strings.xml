@@ -4,4 +4,17 @@
 
     <string name="oops">Oops...!</string>
     <string name="retry">Retry</string>
+    <string name="continue_text">Continue</string>
+    <string name="login_text">Login</string>
+
+    <string name="pages_login_title">Please enter your Username And Password</string>
+    <string name="pages_login_subtitle">to access Mobile Warehouse Management System</string>
+
+    <string name="user_name">Username</string>
+    <string name="type_your_username">Type your username</string>
+    <string name="password">Password</string>
+    <string name="type_your_password">Type your password</string>
+
+    <string name="label_scanner_info">Scan Bar Code here</string>
+
 </resources>
